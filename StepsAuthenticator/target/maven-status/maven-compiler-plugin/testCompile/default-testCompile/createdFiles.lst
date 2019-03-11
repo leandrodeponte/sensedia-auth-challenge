@@ -1,0 +1,3 @@
+br/com/sensedia/StepsAuthenticator/service/SecretCodeServiceTest.class
+br/com/sensedia/StepsAuthenticator/service/AuthenticationKeyServiceTest.class
+br/com/sensedia/StepsAuthenticator/core/TwoFactorAuthEngineTest.class

@@ -1,0 +1,10 @@
+/home/leandroponte/Projetos_Codigo/sendedia-challenge/StepsAuthenticator/src/main/java/br/com/sensedia/StepsAuthenticator/controller/SecretCodeController.java
+/home/leandroponte/Projetos_Codigo/sendedia-challenge/StepsAuthenticator/src/main/java/br/com/sensedia/StepsAuthenticator/service/AuthenticationKeyService.java
+/home/leandroponte/Projetos_Codigo/sendedia-challenge/StepsAuthenticator/src/main/java/br/com/sensedia/StepsAuthenticator/model/AuthenticationKey.java
+/home/leandroponte/Projetos_Codigo/sendedia-challenge/StepsAuthenticator/src/main/java/br/com/sensedia/StepsAuthenticator/core/TwoFactorAuthEngine.java
+/home/leandroponte/Projetos_Codigo/sendedia-challenge/StepsAuthenticator/src/main/java/br/com/sensedia/StepsAuthenticator/StepsAuthenticatorApplication.java
+/home/leandroponte/Projetos_Codigo/sendedia-challenge/StepsAuthenticator/src/main/java/br/com/sensedia/StepsAuthenticator/utils/ConfigUtils.java
+/home/leandroponte/Projetos_Codigo/sendedia-challenge/StepsAuthenticator/src/main/java/br/com/sensedia/StepsAuthenticator/model/SecretInfo.java
+/home/leandroponte/Projetos_Codigo/sendedia-challenge/StepsAuthenticator/src/main/java/br/com/sensedia/StepsAuthenticator/controller/AuthenticationKeyController.java
+/home/leandroponte/Projetos_Codigo/sendedia-challenge/StepsAuthenticator/src/main/java/br/com/sensedia/StepsAuthenticator/utils/SecretKeyUtils.java
+/home/leandroponte/Projetos_Codigo/sendedia-challenge/StepsAuthenticator/src/main/java/br/com/sensedia/StepsAuthenticator/service/SecretCodeService.java
