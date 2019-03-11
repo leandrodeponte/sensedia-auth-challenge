@@ -25,14 +25,12 @@ public class LoginService {
         boolean isValidAuthenticationKey;
 
         if (user == null) {
-            //TODO create login does not exist exception
             return null;
         }
 
         isValidAuthenticationKey = validateAuthenticationKey(user, authenticationKey);
 
         if (!isValidAuthenticationKey) {
-            //TODO create invalid key exception
             return null;
         }
 
@@ -43,6 +41,7 @@ public class LoginService {
     public AuthenticationKey generateAuthenticationKey(User user) throws InvalidKeyException {
 
         SecretInfo secretInfo = SecretInfo.build(user.getSecret());
+        secretInfo.setData(user.getUsername());
         AuthenticationKey authenticationKey
                 = authenticationKeyService.generateAuthenticationKey(secretInfo);
 
@@ -54,6 +53,7 @@ public class LoginService {
             throws InvalidKeyException {
 
         SecretInfo secretInfo = SecretInfo.build(user.getSecret());
+        secretInfo.setData(user.getUsername());
         AuthenticationKey authenticationKey = AuthenticationKey.build(providedAuthenticationKey);
         boolean isValidAuthenticationKey =
                 authenticationKeyService

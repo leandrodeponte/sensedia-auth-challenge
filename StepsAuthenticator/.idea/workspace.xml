@@ -24,13 +24,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TwoFactorAuthEngine.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TwoFactorAuthEngine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/core/TwoFactorAuthEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+            <state relative-caret-position="220">
+              <caret line="122" column="39" lean-forward="true" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#5357#5358#0" expanded="true" />
+                <element signature="e#5405#5406#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DateUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/utils/DateUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthenticationKey.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/model/AuthenticationKey.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="e#302#303#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,8 +63,18 @@
       <file leaf-file-name="TwoFactorAuthEngineTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/sensedia/StepsAuthenticator/core/TwoFactorAuthEngineTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state relative-caret-position="1088">
+              <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthenticationKeyService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/service/AuthenticationKeyService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,8 +83,8 @@
       <file leaf-file-name="AuthenticationKeyServiceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/sensedia/StepsAuthenticator/service/AuthenticationKeyServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="220">
+              <caret line="45" column="38" lean-forward="false" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -59,7 +93,7 @@
       <file leaf-file-name="SecretCodeServiceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/sensedia/StepsAuthenticator/service/SecretCodeServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="374">
               <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding />
             </state>
@@ -69,10 +103,24 @@
       <file leaf-file-name="AuthenticationKeyController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/controller/AuthenticationKeyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecretInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/model/SecretInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,10 +139,11 @@
     <findStrings>
       <find>key</find>
       <find>user</find>
-      <find>user</find>
       <find>Secutiry</find>
       <find>UserSecretInfo</find>
       <find>calculateTimeToExpireKey</find>
+      <find>now()</find>
+      <find>todo</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -128,14 +177,15 @@
         <option value="$PROJECT_DIR$/src/test/java/br/com/sensedia/StepsAuthenticator/service/SecretCodeServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/sensedia/StepsAuthenticator/core/TwoFacotrAuthEngineTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/core/TwoFactorAuthGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/service/AuthenticationKeyService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/br/com/sensedia/StepsAuthenticator/service/AuthenticationKeyServiceTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/controller/AuthenticationKeyController.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/model/AuthenticationKey.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/model/SecretInfo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/sensedia/StepsAuthenticator/service/AuthenticationKeyServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/utils/DateUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/sensedia/StepsAuthenticator/core/TwoFactorAuthEngineTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/core/TwoFactorAuthEngine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/service/AuthenticationKeyService.java" />
       </list>
     </option>
   </component>
@@ -167,9 +217,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,6 +275,33 @@
               <item name="StepsAuthenticator" type="b2602c69:ProjectViewProjectNode" />
               <item name="StepsAuthenticator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="StepsAuthenticator" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StepsAuthenticator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StepsAuthenticator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="StepsAuthenticator" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StepsAuthenticator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StepsAuthenticator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="StepsAuthenticator" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StepsAuthenticator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StepsAuthenticator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -264,14 +341,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TOTP-spring-example" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cadastro" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -519,34 +596,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AuthenticationKeyServiceTest - 2019.03.11 at 01h 18m 06s.xml">
+    <history-entry file="AuthenticationKeyServiceTest - 2019.03.11 at 10h 20m 13s.xml">
       <configuration name="AuthenticationKeyServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SecretCodeServiceTest_generateSecretController_OK - 2019.03.11 at 01h 17m 41s.xml">
+    <history-entry file="AuthenticationKeyServiceTest - 2019.03.11 at 20h 07m 27s.xml">
+      <configuration name="AuthenticationKeyServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecretCodeServiceTest_generateSecretController_OK - 2019.03.11 at 20h 07m 17s.xml">
       <configuration name="SecretCodeServiceTest.generateSecretController_OK" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoFactorAuthEngineTest - 2019.03.11 at 00h 26m 19s.xml">
+    <history-entry file="TwoFactorAuthEngineTest - 2019.03.11 at 10h 21m 35s.xml">
       <configuration name="TwoFactorAuthEngineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoFactorAuthEngineTest - 2019.03.11 at 00h 32m 03s.xml">
+    <history-entry file="TwoFactorAuthEngineTest - 2019.03.11 at 10h 27m 23s.xml">
       <configuration name="TwoFactorAuthEngineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoFactorAuthEngineTest - 2019.03.11 at 00h 53m 28s.xml">
+    <history-entry file="TwoFactorAuthEngineTest - 2019.03.11 at 20h 01m 00s.xml">
       <configuration name="TwoFactorAuthEngineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoFactorAuthEngineTest - 2019.03.11 at 01h 17m 14s.xml">
+    <history-entry file="TwoFactorAuthEngineTest - 2019.03.11 at 20h 03m 54s.xml">
       <configuration name="TwoFactorAuthEngineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoFactorAuthEngineTest - 2019.03.11 at 01h 17m 49s.xml">
+    <history-entry file="TwoFactorAuthEngineTest - 2019.03.11 at 20h 06m 21s.xml">
       <configuration name="TwoFactorAuthEngineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoFactorAuthEngineTest - 2019.03.11 at 01h 28m 21s.xml">
+    <history-entry file="TwoFactorAuthEngineTest - 2019.03.11 at 20h 07m 00s.xml">
       <configuration name="TwoFactorAuthEngineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoFactorAuthEngineTest - 2019.03.11 at 01h 32m 11s.xml">
-      <configuration name="TwoFactorAuthEngineTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TwoFactorAuthEngineTest - 2019.03.11 at 01h 34m 46s.xml">
+    <history-entry file="TwoFactorAuthEngineTest - 2019.03.11 at 20h 07m 44s.xml">
       <configuration name="TwoFactorAuthEngineTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -562,26 +639,26 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32668713" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964426" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22450593" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22809787" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4553846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45398772" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964426" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -597,71 +674,117 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/br/com/sensedia/StepsAuthenticator/service/AuthenticationKeyServiceTest.java</url>
-          <line>42</line>
+          <line>44</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/br/com/sensedia/StepsAuthenticator/service/AuthenticationKeyServiceTest.java</url>
-          <line>26</line>
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/sensedia/StepsAuthenticator/core/TwoFactorAuthEngineTest.java</url>
+          <line>77</line>
           <properties />
-          <option name="timeStamp" value="11" />
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="23" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>key</expression-string>
+        <expression-string>String.format(&quot;%02X &quot;, result[result.length - 1])</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>bytesToHex(mac.doFinal(data.getBytes())) +&quot; - &quot; + toHexString(mac.doFinal(data.getBytes()))</expression-string>
+        <expression-string>offset</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>bytesToHex(mac.doFinal(data.getBytes()))</expression-string>
+        <expression-string>81 &amp; 0xF</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>mac.doFinal(data.getBytes())</expression-string>
+        <expression-string>-81 &amp; 0xF</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>providedSecretAuthenticationKey.substring(16)</expression-string>
+        <expression-string>0xF</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>providedSecretAuthenticationKey</expression-string>
+        <expression-string>result[result.length - 1]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>providedSecretAuthenticationKey.substring(16, 2)</expression-string>
+        <expression-string>result[result.length - 1] &amp; 0xF</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>providedSecretAuthenticationKey.substring(0, 16)</expression-string>
+        <expression-string>toHexString(-81)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>providedSecretAuthenticationKey.substring(0, 15)</expression-string>
+        <expression-string>data.getBytes()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/core/TwoFactorAuthEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5357#5358#0" expanded="true" />
+            <element signature="e#5405#5406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/sensedia/StepsAuthenticator/core/TwoFactorAuthEngineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/sensedia/StepsAuthenticator/service/AuthenticationKeyServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/sensedia/StepsAuthenticator/service/SecretCodeServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/controller/AuthenticationKeyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -674,18 +797,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/model/UserSecretInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/model/UserSecretInfo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/service/AuthenticationKeyService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -716,9 +831,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -734,14 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <marker date="1550116841854" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1550116841854" expanded="false" signature="130:283" ph="..." />
-            <marker date="1550116841854" expanded="true" signature="285:347" ph="@{...}" />
-            <marker date="1550116841854" expanded="true" signature="584:602" ph="/**...*/" />
-            <marker date="1550116841854" expanded="true" signature="607:673" ph="@{...}" />
-            <marker date="1550116841854" expanded="true" signature="710:717" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -759,14 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <marker date="1550116841854" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1550116841854" expanded="false" signature="130:283" ph="..." />
-            <marker date="1550116841854" expanded="true" signature="285:347" ph="@{...}" />
-            <marker date="1550116841854" expanded="true" signature="584:602" ph="/**...*/" />
-            <marker date="1550116841854" expanded="true" signature="607:673" ph="@{...}" />
-            <marker date="1550116841854" expanded="true" signature="710:717" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,7 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -789,18 +885,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="359" column="25" lean-forward="false" selection-start-line="359" selection-start-column="25" selection-end-line="359" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/model/UserSecretInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/model/UserSecretInfo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/StepsAuthenticatorApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -825,22 +913,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/core/TwoFactorAuthGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="41" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/service/AuthenticationKeyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="46" column="21" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/core/TwoFactorAuthGenerator.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/controller/SecretCodeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -861,7 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -869,7 +941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -881,100 +952,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/model/SecretInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding>
-            <element signature="e#186#187#0" expanded="false" />
-            <element signature="e#226#227#0" expanded="false" />
-            <element signature="e#258#259#0" expanded="false" />
-            <element signature="e#291#292#0" expanded="false" />
-            <element signature="e#320#321#0" expanded="false" />
-            <element signature="e#364#365#0" expanded="false" />
-            <element signature="e#400#401#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/model/AuthenticationKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#254#255#0" expanded="false" />
-            <element signature="e#302#303#0" expanded="false" />
-            <element signature="e#504#505#0" expanded="false" />
-            <element signature="e#539#540#0" expanded="false" />
-            <element signature="e#602#603#0" expanded="false" />
-            <element signature="e#650#651#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/sensedia/StepsAuthenticator/service/SecretCodeServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/model/SecretInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <marker date="1514547662726" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1514547662726" expanded="false" signature="147:326" ph="..." />
-            <marker date="1514547662726" expanded="true" signature="476:685" ph="{...}" />
-            <marker date="1514547662726" expanded="false" signature="716:727" ph=" { " />
-            <marker date="1514547662726" expanded="false" signature="746:752" ph=" }" />
-            <marker date="1514547662726" expanded="true" signature="852:1077" ph="{...}" />
-            <marker date="1514547662726" expanded="false" signature="870:964" ph="runReflectiveCall() → {" />
-            <marker date="1514547662726" expanded="false" signature="1048:1063" ph="}" />
-            <marker date="1514547662726" expanded="false" signature="1106:1117" ph=" { " />
-            <marker date="1514547662726" expanded="false" signature="1146:1152" ph=" }" />
-            <marker date="1514547662726" expanded="true" signature="1236:1469" ph="{...}" />
-            <marker date="1514547662726" expanded="true" signature="1548:2081" ph="{...}" />
-            <marker date="1514547662726" expanded="false" signature="2115:2126" ph=" { " />
-            <marker date="1514547662726" expanded="false" signature="2160:2166" ph=" }" />
-            <marker date="1514547662726" expanded="false" signature="2203:2214" ph=" { " />
-            <marker date="1514547662726" expanded="false" signature="2249:2255" ph=" }" />
-            <marker date="1514547662726" expanded="false" signature="2286:2297" ph=" { " />
-            <marker date="1514547662726" expanded="false" signature="2325:2331" ph=" }" />
-            <marker date="1514547662726" expanded="false" signature="2372:2383" ph=" { " />
-            <marker date="1514547662726" expanded="false" signature="2422:2428" ph=" }" />
-            <marker date="1514547662726" expanded="true" signature="2501:2586" ph="{...}" />
-            <marker date="1514547662726" expanded="true" signature="2643:3127" ph="{...}" />
-            <marker date="1514547662726" expanded="true" signature="3167:3289" ph="{...}" />
-            <marker date="1514547662726" expanded="false" signature="3316:3327" ph=" { " />
-            <marker date="1514547662726" expanded="false" signature="3357:3363" ph=" }" />
-            <marker date="1514547662726" expanded="true" signature="3369:3387" ph="/**...*/" />
-            <marker date="1514547662726" expanded="true" signature="3447:3595" ph="{...}" />
-            <marker date="1514547662726" expanded="false" signature="3639:3650" ph=" { " />
-            <marker date="1514547662726" expanded="false" signature="3689:3695" ph=" }" />
-            <marker date="1514547662726" expanded="false" signature="3737:3748" ph=" { " />
-            <marker date="1514547662726" expanded="false" signature="3784:3790" ph=" }" />
-            <marker date="1514547662726" expanded="true" signature="3867:3932" ph="{...}" />
-            <marker date="1514547662726" expanded="false" signature="3962:3973" ph=" { " />
-            <marker date="1514547662726" expanded="false" signature="4003:4009" ph=" }" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/sensedia/StepsAuthenticator/service/AuthenticationKeyServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/sensedia/StepsAuthenticator/service/SecretCodeServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="220">
+          <caret line="45" column="38" lean-forward="false" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/controller/AuthenticationKeyController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -983,19 +999,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/sensedia/StepsAuthenticator/core/TwoFactorAuthEngineTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state relative-caret-position="1088">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/utils/DateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/model/AuthenticationKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#302#303#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/core/TwoFactorAuthEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        <state relative-caret-position="220">
+          <caret line="122" column="39" lean-forward="true" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5357#5358#0" expanded="true" />
+            <element signature="e#5405#5406#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sensedia/StepsAuthenticator/service/AuthenticationKeyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

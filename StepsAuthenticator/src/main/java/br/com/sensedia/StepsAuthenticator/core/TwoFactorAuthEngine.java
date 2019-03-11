@@ -1,6 +1,7 @@
 package br.com.sensedia.StepsAuthenticator.core;
 
 import br.com.sensedia.StepsAuthenticator.model.AuthenticationKey;
+import br.com.sensedia.StepsAuthenticator.utils.DateUtils;
 
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
@@ -10,7 +11,6 @@ import java.security.SecureRandom;
 import java.security.SignatureException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Formatter;
 import java.util.Random;
 
 public class TwoFactorAuthEngine {
@@ -57,14 +57,18 @@ public class TwoFactorAuthEngine {
             return false;
         }
 
+        LocalDateTime dateToValidate = DateUtils.getCurrentTimeNoMiliseconds();
+
         for(int i = 0; i < TIME_TO_EXPIRE_IN_SECONDS; i++){
-            LocalDateTime dateToValidate = LocalDateTime.now().minusSeconds(i);
-            AuthenticationKey authenticationKey = this.generateAuthenticationKey(data, secret, dateToValidate);
+
+            AuthenticationKey authenticationKey
+                    = this.generateAuthenticationKey(data, secret, dateToValidate);
 
             if(providedSecretAuthenticationKey
                     .equalsIgnoreCase(authenticationKey.getProvidedAuthenticationKey())){
                 return true;
             }
+            dateToValidate = dateToValidate.minusSeconds(1);
         }
 
         return false;
@@ -82,7 +86,8 @@ public class TwoFactorAuthEngine {
     public AuthenticationKey generateAuthenticationKey(String data, String secret )
             throws NoSuchAlgorithmException, SignatureException, InvalidKeyException {
 
-        return generateAuthenticationKey( data,  secret, LocalDateTime.now());
+        LocalDateTime currentDate = DateUtils.getCurrentTimeNoMiliseconds();
+        return generateAuthenticationKey( data,  secret, currentDate);
     }
 
     /***
@@ -108,6 +113,16 @@ public class TwoFactorAuthEngine {
         return generatedAuthenticationKey;
     }
 
+    /***
+     * Method based on the RFC4226
+     * Section 5.4 Example of HOTP Computation for Digit = 6
+     * @param data
+     * @param key
+     * @return
+     * @throws SignatureException
+     * @throws NoSuchAlgorithmException
+     * @throws InvalidKeyException
+     */
     private String calculateRFC2104HMAC(String data, String key)
             throws SignatureException, NoSuchAlgorithmException, InvalidKeyException
     {
@@ -115,23 +130,24 @@ public class TwoFactorAuthEngine {
         Mac mac = Mac.getInstance(ALGORITMH_TO_GENERATE_THE_AUTH_KEY);
         mac.init(signingKey);
 
-        return toHexString(mac.doFinal(data.getBytes()));
+        byte[] result = mac.doFinal(data.getBytes());
+
+        int offset = result[result.length - 1] & 0xF;
+        int bin_code = (result[offset]  & 0x7f) << 24
+                | (result[offset+1] & 0xff) << 16
+                | (result[offset+2] & 0xff) <<  8
+                | (result[offset+3] & 0xff) ;
+
+        bin_code %= 1000000;
+
+        return String.valueOf(bin_code);
     }
-
-
-    private static String toHexString(byte[] bytes) {
-        Formatter formatter = new Formatter();
-
-        for (byte b : bytes) {
-            formatter.format("%02x", b);
-        }
-
-        return formatter.toString();
-    }
-
 
     private LocalDateTime calculateTimeToExpireKey(LocalDateTime currentTime){
         return currentTime.plusSeconds(TIME_TO_EXPIRE_IN_SECONDS);
     }
 
+    public long getTIME_TO_EXPIRE_IN_SECONDS() {
+        return TIME_TO_EXPIRE_IN_SECONDS;
+    }
 }

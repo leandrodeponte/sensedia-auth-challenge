@@ -21,8 +21,8 @@ public class AuthenticationKeyServiceTest {
 
     @Before
     public  void startup(){
-        secretInfo = secretCodeService.generateSecret();
-        secretInfo.setData("User Data Sent by The Service");
+        secretInfo = SecretInfo.build("RCDZ36FCF7U6NX5J");
+        secretInfo.setData("salves");
         try {
             authenticationKey = authenticationKeyService.generateAuthenticationKey(secretInfo);
         } catch (InvalidKeyException e) {
@@ -38,12 +38,14 @@ public class AuthenticationKeyServiceTest {
     }
 
     @Test
-    public void validateAuthenticationKey_OK() throws InvalidKeyException {
+    public void validateAuthenticationKey_OK() throws InvalidKeyException, InterruptedException {
+
+        Thread.sleep(5000);
 
         boolean isUserKeyValid = authenticationKeyService
                 .validateAuthenticationKey(secretInfo
                 , authenticationKey);
 
-        //assertTrue(isUserKeyValid);
+        assertTrue(isUserKeyValid);
     }
 }

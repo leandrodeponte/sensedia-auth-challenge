@@ -1,10 +1,11 @@
 br/com/sensedia/StepsAuthenticator/model/SecretInfo.class
-br/com/sensedia/StepsAuthenticator/service/AuthenticationKeyService.class
-br/com/sensedia/StepsAuthenticator/controller/AuthenticationKeyController.class
-br/com/sensedia/StepsAuthenticator/utils/SecretKeyUtils.class
 br/com/sensedia/StepsAuthenticator/core/TwoFactorAuthEngine.class
 br/com/sensedia/StepsAuthenticator/StepsAuthenticatorApplication.class
 br/com/sensedia/StepsAuthenticator/model/AuthenticationKey.class
+br/com/sensedia/StepsAuthenticator/utils/DateUtils.class
 br/com/sensedia/StepsAuthenticator/controller/SecretCodeController.class
 br/com/sensedia/StepsAuthenticator/service/SecretCodeService.class
+br/com/sensedia/StepsAuthenticator/service/AuthenticationKeyService.class
+br/com/sensedia/StepsAuthenticator/controller/AuthenticationKeyController.class
+br/com/sensedia/StepsAuthenticator/utils/SecretKeyUtils.class
 br/com/sensedia/StepsAuthenticator/utils/ConfigUtils.class

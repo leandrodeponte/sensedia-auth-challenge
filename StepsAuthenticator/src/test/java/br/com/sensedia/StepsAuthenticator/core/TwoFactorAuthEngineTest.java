@@ -53,7 +53,7 @@ public class TwoFactorAuthEngineTest {
             throws NoSuchAlgorithmException, SignatureException,
             InvalidKeyException, InterruptedException {
 
-        Thread.sleep(3000);
+        Thread.sleep(1000);
 
         boolean isValid = twoFactorAuthEngine
                 .validateAuthenticationKey(secretInfo.getData()
@@ -68,7 +68,7 @@ public class TwoFactorAuthEngineTest {
             throws NoSuchAlgorithmException, SignatureException,
             InvalidKeyException, InterruptedException {
 
-        Thread.sleep(1000);
+        Thread.sleep((twoFactorAuthEngine.getTIME_TO_EXPIRE_IN_SECONDS() + 1) * 1000);
 
         boolean isValid = twoFactorAuthEngine
                 .validateAuthenticationKey(secretInfo.getData()
